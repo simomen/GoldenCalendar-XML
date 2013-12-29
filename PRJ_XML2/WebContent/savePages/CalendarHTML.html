@@ -1,0 +1,497 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><style type="text/css">
+
+			body {
+			    width: 600px;
+			    margin: 40px auto;
+			    font-family: 'trebuchet MS', 'Lucida sans', Arial;
+			    font-size: 14px;
+			    color: #444;
+			}
+			
+			table {
+			    *border-collapse: collapse; /* IE7 and lower */
+			    border-spacing: 0;
+			    width: 100%;    
+			}
+			
+			.bordered {
+			    border: solid #ccc 1px;
+			    -moz-border-radius: 6px;
+			    -webkit-border-radius: 6px;
+			    border-radius: 6px;
+			    -webkit-box-shadow: 0 1px 1px #ccc; 
+			    -moz-box-shadow: 0 1px 1px #ccc; 
+			    box-shadow: 0 1px 1px #ccc;         
+			}
+			
+			.bordered tr:hover {
+			    background: #fbf8e9;
+			    -o-transition: all 0.1s ease-in-out;
+			    -webkit-transition: all 0.1s ease-in-out;
+			    -moz-transition: all 0.1s ease-in-out;
+			    -ms-transition: all 0.1s ease-in-out;
+			    transition: all 0.1s ease-in-out;     
+			}    
+			    
+			.bordered td, .bordered th {
+			    border-left: 1px solid #ccc;
+			    border-top: 1px solid #ccc;
+			    padding: 10px;
+			    text-align: left;    
+			}
+			
+			.bordered th {
+			    background-color: #dce9f9;
+			    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+			    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+			    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+			    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+			    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+			    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+			    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+			    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+			    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+			    border-top: none;
+			    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+			}
+			
+			.bordered td:first-child, .bordered th:first-child {
+			    border-left: none;
+			}
+			
+			.bordered th:first-child {
+			    -moz-border-radius: 6px 0 0 0;
+			    -webkit-border-radius: 6px 0 0 0;
+			    border-radius: 6px 0 0 0;
+			}
+			
+			.bordered th:last-child {
+			    -moz-border-radius: 0 6px 0 0;
+			    -webkit-border-radius: 0 6px 0 0;
+			    border-radius: 0 6px 0 0;
+			}
+			
+			.bordered th:only-child{
+			    -moz-border-radius: 6px 6px 0 0;
+			    -webkit-border-radius: 6px 6px 0 0;
+			    border-radius: 6px 6px 0 0;
+			}
+			
+			.bordered tr:last-child td:first-child {
+			    -moz-border-radius: 0 0 0 6px;
+			    -webkit-border-radius: 0 0 0 6px;
+			    border-radius: 0 0 0 6px;
+			}
+			
+			.bordered tr:last-child td:last-child {
+			    -moz-border-radius: 0 0 6px 0;
+			    -webkit-border-radius: 0 0 6px 0;
+			    border-radius: 0 0 6px 0;
+			}
+			
+			
+			
+			/*----------------------*/
+			
+			.zebra td, .zebra th {
+			    padding: 10px;
+			    border-bottom: 1px solid #f2f2f2;    
+			}
+			
+			.zebra tbody tr:nth-child(even) {
+			    background: #f5f5f5;
+			    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+			    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+			    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+			}
+			
+			.zebra th {
+			    text-align: left;
+			    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+			    border-bottom: 1px solid #ccc;
+			    background-color: #eee;
+			    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#eee));
+			    background-image: -webkit-linear-gradient(top, #f5f5f5, #eee);
+			    background-image:    -moz-linear-gradient(top, #f5f5f5, #eee);
+			    background-image:     -ms-linear-gradient(top, #f5f5f5, #eee);
+			    background-image:      -o-linear-gradient(top, #f5f5f5, #eee); 
+			    background-image:         linear-gradient(top, #f5f5f5, #eee);
+			}
+			
+			.zebra th:first-child {
+			    -moz-border-radius: 6px 0 0 0;
+			    -webkit-border-radius: 6px 0 0 0;
+			    border-radius: 6px 0 0 0;  
+			}
+			
+			.zebra th:last-child {
+			    -moz-border-radius: 0 6px 0 0;
+			    -webkit-border-radius: 0 6px 0 0;
+			    border-radius: 0 6px 0 0;
+			}
+			
+			.zebra th:only-child{
+			    -moz-border-radius: 6px 6px 0 0;
+			    -webkit-border-radius: 6px 6px 0 0;
+			    border-radius: 6px 6px 0 0;
+			}
+			
+			.zebra tfoot td {
+			    border-bottom: 0;
+			    border-top: 1px solid #fff;
+			    background-color: #f1f1f1;  
+			}
+			
+			.zebra tfoot td:first-child {
+			    -moz-border-radius: 0 0 0 6px;
+			    -webkit-border-radius: 0 0 0 6px;
+			    border-radius: 0 0 0 6px;
+			}
+			
+			.zebra tfoot td:last-child {
+			    -moz-border-radius: 0 0 6px 0;
+			    -webkit-border-radius: 0 0 6px 0;
+			    border-radius: 0 0 6px 0;
+			}
+			
+			.zebra tfoot td:only-child{
+			    -moz-border-radius: 0 0 6px 6px;
+			    -webkit-border-radius: 0 0 6px 6px
+			    border-radius: 0 0 6px 6px
+			}
+  
+</style><title>Calendar</title></head><body><h1>Calendar</h1>
+				
+				Date de Telechargement du fichier brute "ICS". <br><br><br>62 Events in this file.<br><br><br>14/11/2013 &agrave;
+	  			12:15:44<table class="bordered"><thead><tr><th>Date Start</th><th>Date End</th><th>Summary</th><th>Location</th><th>Description</th></tr></thead><tbody><tr><td>03/12/2013 &agrave;
+	  			13:00:00</td><td>03/12/2013 &agrave;
+	  			16:00:00</td><td>Programmation Web Avanc&eacute;e</td><td>CARNOT B09</td><td>
+		Master 1 Info
+		YAICH MOHAMED REDA
+	</td></tr></tbody><tbody><tr><td>18/12/2013 &agrave;
+	  			07:00:00</td><td>18/12/2013 &agrave;
+	  			09:00:00</td><td>Anglais S1 M&eacute;tare</td><td>Salle A3</td><td>
+		Master 1 Info
+		FINN NIALL
+	</td></tr></tbody><tbody><tr><td>26/11/2013 &agrave;
+	  			09:00:00</td><td>26/11/2013 &agrave;
+	  			11:00:00</td><td>CM/TD Meteor (M1) / Intro to AI</td><td>CARNOT B08</td><td>
+		MLDM
+		Master 1 Info
+		FROMONT ELISA
+	</td></tr></tbody><tbody><tr><td>09/12/2013 &agrave;
+	  			13:00:00</td><td>09/12/2013 &agrave;
+	  			16:00:00</td><td>UEP  voir planning</td><td>CARNOT B09\,CARNOT B10</td><td>
+		Master 1 Info
+	</td></tr></tbody><tbody><tr><td>29/11/2013 &agrave;
+	  			08:00:00</td><td>29/11/2013 &agrave;
+	  			11:00:00</td><td>CM/TD G&eacute;nie Logiciel</td><td>CARNOT B10</td><td>
+		Master 1 Info
+		JACQUENET FRAN&Ccedil;OIS
+	</td></tr></tbody><tbody><tr><td>19/11/2013 &agrave;
+	  			15:00:00</td><td>19/11/2013 &agrave;
+	  			17:00:00</td><td>TP Advanced Algorithmics</td><td>CARNOT B112 - INFO</td><td>
+		MLDM
+		Master 1 Info
+		HABRARD AMAURY
+	</td></tr></tbody><tbody><tr><td>04/12/2013 &agrave;
+	  			13:00:00</td><td>04/12/2013 &agrave;
+	  			15:00:00</td><td>TP METEOR (M1) / TP Intro to AI (MLDM)</td><td>CARNOT B08</td><td>
+		MLDM
+		Master 1 Info
+		KEKEC TAYGUN
+		VIRTUEL Sciences
+	</td></tr></tbody><tbody><tr><td>10/12/2013 &agrave;
+	  			07:00:00</td><td>10/12/2013 &agrave;
+	  			09:00:00</td><td>CM/TD Calculability and Compl.Th&eacute;ory</td><td>CARNOT B08</td><td>
+		MLDM
+		Master 1 Info
+		BARON RICHARD
+	</td></tr></tbody><tbody><tr><td>02/12/2013 &agrave;
+	  			08:00:00</td><td>02/12/2013 &agrave;
+	  			11:00:00</td><td>Programmation Web Avanc&eacute;e</td><td>CARNOT B08</td><td>
+		Master 1 Info
+		YAICH MOHAMED REDA
+	</td></tr></tbody><tbody><tr><td>06/12/2013 &agrave;
+	  			08:00:00</td><td>06/12/2013 &agrave;
+	  			11:00:00</td><td>Meteor Simplex (M1)</td><td>CARNOT B09</td><td>
+		Master 1 Info
+		FROMONT ELISA
+	</td></tr></tbody><tbody><tr><td>10/12/2013 &agrave;
+	  			15:00:00</td><td>10/12/2013 &agrave;
+	  			17:00:00</td><td>TP Advanced Algorithmics</td><td>CARNOT B112 - INFO</td><td>
+		MLDM
+		Master 1 Info
+		HABRARD AMAURY
+	</td></tr></tbody><tbody><tr><td>17/12/2013 &agrave;
+	  			07:00:00</td><td>17/12/2013 &agrave;
+	  			17:00:00</td><td>EXAM WEEK</td><td></td><td>
+		Master 1 Info
+	</td></tr></tbody><tbody><tr><td>26/11/2013 &agrave;
+	  			15:00:00</td><td>26/11/2013 &agrave;
+	  			17:00:00</td><td>TP Advanced Algorithmics</td><td>CARNOT B112 - INFO</td><td>
+		MLDM
+		Master 1 Info
+		HABRARD AMAURY
+	</td></tr></tbody><tbody><tr><td>27/11/2013 &agrave;
+	  			13:00:00</td><td>27/11/2013 &agrave;
+	  			17:00:00</td><td>TP METEOR (M1) / TP Intro to AI (MLDM)</td><td>CARNOT B08</td><td>
+		MLDM
+		Master 1 Info
+		KEKEC TAYGUN
+		VIRTUEL Sciences
+	</td></tr></tbody><tbody><tr><td>11/12/2013 &agrave;
+	  			09:15:00</td><td>11/12/2013 &agrave;
+	  			11:15:00</td><td>Anglais S1 M&eacute;tare</td><td>Salle A3</td><td>
+		Master 1 Info
+		HACHE FREDERIC
+	</td></tr></tbody><tbody><tr><td>03/12/2013 &agrave;
+	  			09:00:00</td><td>03/12/2013 &agrave;
+	  			11:00:00</td><td>CM/TD Meteor (M1) / Intro to AI</td><td>CARNOT B09</td><td>
+		MLDM
+		Master 1 Info
+		FROMONT ELISA
+	</td></tr></tbody><tbody><tr><td>20/11/2013 &agrave;
+	  			09:15:00</td><td>20/11/2013 &agrave;
+	  			11:15:00</td><td>Anglais S1 M&eacute;tare</td><td>Salle A3</td><td>
+		Master 1 Info
+		HACHE FREDERIC
+	</td></tr></tbody><tbody><tr><td>20/11/2013 &agrave;
+	  			07:00:00</td><td>20/11/2013 &agrave;
+	  			09:00:00</td><td>Anglais S1 M&eacute;tare</td><td>Salle A3</td><td>
+		Master 1 Info
+		FINN NIALL
+	</td></tr></tbody><tbody><tr><td>06/12/2013 &agrave;
+	  			15:00:00</td><td>06/12/2013 &agrave;
+	  			17:00:00</td><td>CM/TD Technologies XML</td><td>CARNOT B03</td><td>
+		Master 1 Info
+		MARET PIERRE
+	</td></tr></tbody><tbody><tr><td>06/12/2013 &agrave;
+	  			13:00:00</td><td>06/12/2013 &agrave;
+	  			15:00:00</td><td>CM/TD Technologies XML</td><td>CARNOT B08</td><td>
+		Master 1 Info
+		MARET PIERRE
+	</td></tr></tbody><tbody><tr><td>15/11/2013 &agrave;
+	  			13:00:00</td><td>15/11/2013 &agrave;
+	  			16:00:00</td><td>CM/TD Technologies XML</td><td>CARNOT B08</td><td>
+		Master 1 Info
+		MARET PIERRE
+	</td></tr></tbody><tbody><tr><td>10/12/2013 &agrave;
+	  			13:00:00</td><td>10/12/2013 &agrave;
+	  			15:00:00</td><td>CM/TD Advanced Algorithmics</td><td>CARNOT B02</td><td>
+		Master 1 Info
+		MLDM
+		HABRARD AMAURY
+	</td></tr></tbody><tbody><tr><td>13/12/2013 &agrave;
+	  			13:00:00</td><td>13/12/2013 &agrave;
+	  			15:00:00</td><td>CM/TD Technologies XML</td><td>CARNOT B03</td><td>
+		Master 1 Info
+		MARET PIERRE
+	</td></tr></tbody><tbody><tr><td>05/12/2013 &agrave;
+	  			07:00:00</td><td>05/12/2013 &agrave;
+	  			17:00:00</td><td>ENTREPRISE DAY</td><td></td><td>
+		MLDM
+		Master 1 Info
+	</td></tr></tbody><tbody><tr><td>21/11/2013 &agrave;
+	  			08:00:00</td><td>21/11/2013 &agrave;
+	  			11:00:00</td><td>Programmation Web Avanc&eacute;e</td><td>CARNOT B10</td><td>
+		Master 1 Info
+		YAICH MOHAMED REDA
+	</td></tr></tbody><tbody><tr><td>04/12/2013 &agrave;
+	  			15:00:00</td><td>04/12/2013 &agrave;
+	  			17:00:00</td><td>CM/TD Calculability and Compl.Th&eacute;ory</td><td>CARNOT B08</td><td>
+		MLDM
+		Master 1 Info
+		BARON RICHARD
+	</td></tr></tbody><tbody><tr><td>14/11/2013 &agrave;
+	  			09:00:00</td><td>14/11/2013 &agrave;
+	  			11:00:00</td><td>CM/TD Calculability and Compl.Th&eacute;ory</td><td>CARNOT B08</td><td>
+		MLDM
+		Master 1 Info
+		BARON RICHARD
+	</td></tr></tbody><tbody><tr><td>13/12/2013 &agrave;
+	  			08:00:00</td><td>13/12/2013 &agrave;
+	  			11:00:00</td><td>CM/TD G&eacute;nie Logiciel</td><td>CARNOT B02</td><td>
+		Master 1 Info
+		JACQUENET FRAN&Ccedil;OIS
+	</td></tr></tbody><tbody><tr><td>27/11/2013 &agrave;
+	  			09:15:00</td><td>27/11/2013 &agrave;
+	  			11:15:00</td><td>Anglais S1 M&eacute;tare</td><td>Salle A3</td><td>
+		Master 1 Info
+		HACHE FREDERIC
+	</td></tr></tbody><tbody><tr><td>02/12/2013 &agrave;
+	  			13:00:00</td><td>02/12/2013 &agrave;
+	  			15:00:00</td><td>CM/TD G&eacute;nie Logiciel</td><td>CARNOT B08</td><td>
+		Master 1 Info
+		JACQUENET FRAN&Ccedil;OIS
+	</td></tr></tbody><tbody><tr><td>18/11/2013 &agrave;
+	  			08:00:00</td><td>18/11/2013 &agrave;
+	  			11:00:00</td><td>CM/TD Meteor (M1) / Intro to AI</td><td>CARNOT B02</td><td>
+		MLDM
+		Master 1 Info
+		FROMONT ELISA
+	</td></tr></tbody><tbody><tr><td>18/11/2013 &agrave;
+	  			13:00:00</td><td>18/11/2013 &agrave;
+	  			15:00:00</td><td>CM/TD G&eacute;nie Logiciel</td><td>CARNOT B08</td><td>
+		Master 1 Info
+		JACQUENET FRAN&Ccedil;OIS
+	</td></tr></tbody><tbody><tr><td>18/11/2013 &agrave;
+	  			15:00:00</td><td>18/11/2013 &agrave;
+	  			17:00:00</td><td>TP METEOR (M1)</td><td>CARNOT B112 - INFO</td><td>
+		Master 1 Info
+		FROMONT ELISA
+	</td></tr></tbody><tbody><tr><td>02/12/2013 &agrave;
+	  			15:00:00</td><td>02/12/2013 &agrave;
+	  			17:00:00</td><td>TP METEOR (M1)</td><td>CARNOT B111 - INFO CIMET</td><td>
+		Master 1 Info
+		FROMONT ELISA
+	</td></tr></tbody><tbody><tr><td>04/12/2013 &agrave;
+	  			07:00:00</td><td>04/12/2013 &agrave;
+	  			09:00:00</td><td>Anglais S1 M&eacute;tare</td><td>Salle A3</td><td>
+		Master 1 Info
+		FINN NIALL
+	</td></tr></tbody><tbody><tr><td>10/12/2013 &agrave;
+	  			09:00:00</td><td>10/12/2013 &agrave;
+	  			11:00:00</td><td>TP METEOR (M1) / TP Intro to AI (MLDM)</td><td>CARNOT B08</td><td>
+		MLDM
+		Master 1 Info
+		KEKEC TAYGUN
+		VIRTUEL Sciences
+	</td></tr></tbody><tbody><tr><td>22/11/2013 &agrave;
+	  			13:00:00</td><td>22/11/2013 &agrave;
+	  			15:00:00</td><td>CM/TD Technologies XML</td><td>CARNOT B03</td><td>
+		Master 1 Info
+		MARET PIERRE
+	</td></tr></tbody><tbody><tr><td>04/12/2013 &agrave;
+	  			09:15:00</td><td>04/12/2013 &agrave;
+	  			11:15:00</td><td>Anglais S1 M&eacute;tare</td><td>Salle A3</td><td>
+		Master 1 Info
+		HACHE FREDERIC
+	</td></tr></tbody><tbody><tr><td>19/11/2013 &agrave;
+	  			07:00:00</td><td>19/11/2013 &agrave;
+	  			09:00:00</td><td>CM/TD Calculability and Compl.Th&eacute;ory</td><td>CARNOT B03</td><td>
+		MLDM
+		Master 1 Info
+		BARON RICHARD
+	</td></tr></tbody><tbody><tr><td>09/12/2013 &agrave;
+	  			08:00:00</td><td>09/12/2013 &agrave;
+	  			11:00:00</td><td>Programmation Web Avanc&eacute;e</td><td>CARNOT B08</td><td>
+		Master 1 Info
+		YAICH MOHAMED REDA
+	</td></tr></tbody><tbody><tr><td>12/12/2013 &agrave;
+	  			08:00:00</td><td>12/12/2013 &agrave;
+	  			11:00:00</td><td>Meteor Simplex (M1)</td><td>CARNOT B09</td><td>
+		Master 1 Info
+		FROMONT ELISA
+	</td></tr></tbody><tbody><tr><td>18/12/2013 &agrave;
+	  			09:15:00</td><td>18/12/2013 &agrave;
+	  			11:15:00</td><td>Anglais S1 M&eacute;tare</td><td>Salle A3</td><td>
+		Master 1 Info
+		HACHE FREDERIC
+	</td></tr></tbody><tbody><tr><td>25/11/2013 &agrave;
+	  			15:00:00</td><td>25/11/2013 &agrave;
+	  			17:00:00</td><td>TP METEOR (M1)</td><td>CARNOT B111 - INFO CIMET</td><td>
+		Master 1 Info
+		FROMONT ELISA
+	</td></tr></tbody><tbody><tr><td>20/12/2013 &agrave;
+	  			07:00:00</td><td>20/12/2013 &agrave;
+	  			17:00:00</td><td>EXAM WEEK</td><td></td><td>
+		Master 1 Info
+	</td></tr></tbody><tbody><tr><td>03/12/2013 &agrave;
+	  			07:00:00</td><td>03/12/2013 &agrave;
+	  			09:00:00</td><td>CM/TD Calculability and Compl.Th&eacute;ory</td><td>CARNOT B10</td><td>
+		MLDM
+		Master 1 Info
+		BARON RICHARD
+	</td></tr></tbody><tbody><tr><td>20/11/2013 &agrave;
+	  			15:00:00</td><td>20/11/2013 &agrave;
+	  			17:00:00</td><td>CM/TD Calculability and Compl.Th&eacute;ory</td><td>CARNOT B08</td><td>
+		MLDM
+		Master 1 Info
+		BARON RICHARD
+	</td></tr></tbody><tbody><tr><td>21/11/2013 &agrave;
+	  			13:00:00</td><td>21/11/2013 &agrave;
+	  			16:00:00</td><td>Programmation Web Avanc&eacute;e</td><td>CARNOT B111 - INFO CIMET</td><td>
+		Master 1 Info
+		YAICH MOHAMED REDA
+	</td></tr></tbody><tbody><tr><td>19/12/2013 &agrave;
+	  			07:00:00</td><td>19/12/2013 &agrave;
+	  			17:00:00</td><td>EXAM WEEK</td><td></td><td>
+		Master 1 Info
+	</td></tr></tbody><tbody><tr><td>20/11/2013 &agrave;
+	  			13:00:00</td><td>20/11/2013 &agrave;
+	  			15:00:00</td><td>TP METEOR (M1) / TP Intro to AI (MLDM)</td><td>CARNOT B08</td><td>
+		MLDM
+		Master 1 Info
+		KEKEC TAYGUN
+		VIRTUEL Sciences
+	</td></tr></tbody><tbody><tr><td>14/11/2013 &agrave;
+	  			13:00:00</td><td>14/11/2013 &agrave;
+	  			16:00:00</td><td>Programmation Web Avanc&eacute;e</td><td>CARNOT B08</td><td>
+		Master 1 Info
+		YAICH MOHAMED REDA
+	</td></tr></tbody><tbody><tr><td>19/11/2013 &agrave;
+	  			13:00:00</td><td>19/11/2013 &agrave;
+	  			15:00:00</td><td>CM/TD Advanced Algorithmics</td><td>CARNOT B02</td><td>
+		Master 1 Info
+		MLDM
+		HABRARD AMAURY
+	</td></tr></tbody><tbody><tr><td>28/11/2013 &agrave;
+	  			13:00:00</td><td>28/11/2013 &agrave;
+	  			16:00:00</td><td>Programmation Web Avanc&eacute;e</td><td>CARNOT B08</td><td>
+		Master 1 Info
+		YAICH MOHAMED REDA
+	</td></tr></tbody><tbody><tr><td>25/11/2013 &agrave;
+	  			13:00:00</td><td>25/11/2013 &agrave;
+	  			15:00:00</td><td>CM/TD G&eacute;nie Logiciel</td><td>CARNOT B08</td><td>
+		Master 1 Info
+		JACQUENET FRAN&Ccedil;OIS
+	</td></tr></tbody><tbody><tr><td>11/12/2013 &agrave;
+	  			07:00:00</td><td>11/12/2013 &agrave;
+	  			09:00:00</td><td>Anglais S1 M&eacute;tare</td><td>Salle A3</td><td>
+		Master 1 Info
+		FINN NIALL
+	</td></tr></tbody><tbody><tr><td>15/11/2013 &agrave;
+	  			08:00:00</td><td>15/11/2013 &agrave;
+	  			11:00:00</td><td>CM/TD G&eacute;nie Logiciel</td><td>CARNOT B08</td><td>
+		Master 1 Info
+		JACQUENET FRAN&Ccedil;OIS
+	</td></tr></tbody><tbody><tr><td>28/11/2013 &agrave;
+	  			08:00:00</td><td>28/11/2013 &agrave;
+	  			11:00:00</td><td>Meteor Simplex (M1)</td><td>CARNOT B03</td><td>
+		Master 1 Info
+		FROMONT ELISA
+	</td></tr></tbody><tbody><tr><td>19/11/2013 &agrave;
+	  			09:00:00</td><td>19/11/2013 &agrave;
+	  			11:00:00</td><td>TP METEOR (M1) / TP Intro to AI (MLDM)</td><td>CARNOT B08</td><td>
+		MLDM
+		Master 1 Info
+		KEKEC TAYGUN
+		FROMONT ELISA
+	</td></tr></tbody><tbody><tr><td>11/12/2013 &agrave;
+	  			13:00:00</td><td>11/12/2013 &agrave;
+	  			15:00:00</td><td>CM/TD Advanced Algorithmics</td><td>CARNOT B02</td><td>
+		Master 1 Info
+		MLDM
+		HABRARD AMAURY
+	</td></tr></tbody><tbody><tr><td>26/11/2013 &agrave;
+	  			13:00:00</td><td>26/11/2013 &agrave;
+	  			15:00:00</td><td>CM/TD Advanced Algorithmics</td><td>CARNOT B02</td><td>
+		Master 1 Info
+		MLDM
+		HABRARD AMAURY
+	</td></tr></tbody><tbody><tr><td>22/11/2013 &agrave;
+	  			08:00:00</td><td>22/11/2013 &agrave;
+	  			11:00:00</td><td>CM/TD G&eacute;nie Logiciel</td><td>CARNOT B10</td><td>
+		Master 1 Info
+		JACQUENET FRAN&Ccedil;OIS
+	</td></tr></tbody><tbody><tr><td>25/11/2013 &agrave;
+	  			08:00:00</td><td>25/11/2013 &agrave;
+	  			11:00:00</td><td>Programmation Web Avanc&eacute;e</td><td>CARNOT B08</td><td>
+		Master 1 Info
+		YAICH MOHAMED REDA
+	</td></tr></tbody><tbody><tr><td>16/12/2013 &agrave;
+	  			07:00:00</td><td>16/12/2013 &agrave;
+	  			17:00:00</td><td>EXAM WEEK</td><td></td><td>
+		Master 1 Info
+	</td></tr></tbody></table></body></html>

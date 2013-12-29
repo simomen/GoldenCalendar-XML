@@ -1,0 +1,239 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><style type="text/css">
+
+			body {
+			    width: 600px;
+			    margin: 40px auto;
+			    font-family: 'trebuchet MS', 'Lucida sans', Arial;
+			    font-size: 14px;
+			    color: #FFFFFF;
+			}
+			
+			table {
+			    *border-collapse: collapse; /* IE7 and lower */
+			    border-spacing: 0;
+			    width: 100%;    
+			}
+			
+			.bordered {
+			    border: solid #ccc 1px;
+			    -moz-border-radius: 6px;
+			    -webkit-border-radius: 6px;
+			    border-radius: 6px;
+			    -webkit-box-shadow: 0 1px 1px #ccc; 
+			    -moz-box-shadow: 0 1px 1px #ccc; 
+			    box-shadow: 0 1px 1px #ccc;         
+			}
+			
+			.bordered thead {
+				color: #444;
+			}
+			.bordered tr:hover {
+			    background: #fbf8e9;
+			    -o-transition: all 0.1s ease-in-out;
+			    -webkit-transition: all 0.1s ease-in-out;
+			    -moz-transition: all 0.1s ease-in-out;
+			    -ms-transition: all 0.1s ease-in-out;
+			    transition: all 0.1s ease-in-out;     
+			}    
+			    
+			.bordered td, .bordered th {
+			    border-left: 1px solid #ccc;
+			    border-top: 1px solid #ccc;
+			    padding: 10px;
+			    text-align: left;    
+			}
+			
+			.bordered th {
+			    background-color: #dce9f9;
+			    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+			    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+			    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+			    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+			    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+			    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+			    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+			    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+			    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+			    border-top: none;
+			    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+			}
+			
+			.bordered td:first-child, .bordered th:first-child {
+			    border-left: none;
+			}
+			
+			.bordered th:first-child {
+			    -moz-border-radius: 6px 0 0 0;
+			    -webkit-border-radius: 6px 0 0 0;
+			    border-radius: 6px 0 0 0;
+			}
+			
+			.bordered th:last-child {
+			    -moz-border-radius: 0 6px 0 0;
+			    -webkit-border-radius: 0 6px 0 0;
+			    border-radius: 0 6px 0 0;
+			}
+			
+			.bordered th:only-child{
+			    -moz-border-radius: 6px 6px 0 0;
+			    -webkit-border-radius: 6px 6px 0 0;
+			    border-radius: 6px 6px 0 0;
+			}
+			
+			.bordered tr:last-child td:first-child {
+			    -moz-border-radius: 0 0 0 6px;
+			    -webkit-border-radius: 0 0 0 6px;
+			    border-radius: 0 0 0 6px;
+			}
+			
+			.bordered tr:last-child td:last-child {
+			    -moz-border-radius: 0 0 6px 0;
+			    -webkit-border-radius: 0 0 6px 0;
+			    border-radius: 0 0 6px 0;
+			}
+			
+			
+			
+			/*----------------------*/
+			
+			.zebra td, .zebra th {
+			    padding: 10px;
+			    border-bottom: 1px solid #f2f2f2;    
+			}
+			
+			.zebra tbody tr:nth-child(even) {
+			    background: #f5f5f5;
+			    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+			    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+			    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+			}
+			
+			.zebra th {
+			    text-align: left;
+			    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+			    border-bottom: 1px solid #ccc;
+			    background-color: #eee;
+			    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#eee));
+			    background-image: -webkit-linear-gradient(top, #f5f5f5, #eee);
+			    background-image:    -moz-linear-gradient(top, #f5f5f5, #eee);
+			    background-image:     -ms-linear-gradient(top, #f5f5f5, #eee);
+			    background-image:      -o-linear-gradient(top, #f5f5f5, #eee); 
+			    background-image:         linear-gradient(top, #f5f5f5, #eee);
+			}
+			
+			.zebra th:first-child {
+			    -moz-border-radius: 6px 0 0 0;
+			    -webkit-border-radius: 6px 0 0 0;
+			    border-radius: 6px 0 0 0;  
+			}
+			
+			.zebra th:last-child {
+			    -moz-border-radius: 0 6px 0 0;
+			    -webkit-border-radius: 0 6px 0 0;
+			    border-radius: 0 6px 0 0;
+			}
+			
+			.zebra th:only-child{
+			    -moz-border-radius: 6px 6px 0 0;
+			    -webkit-border-radius: 6px 6px 0 0;
+			    border-radius: 6px 6px 0 0;
+			}
+			
+			.zebra tfoot td {
+			    border-bottom: 0;
+			    border-top: 1px solid #fff;
+			    background-color: #f1f1f1;  
+			}
+			
+			.zebra tfoot td:first-child {
+			    -moz-border-radius: 0 0 0 6px;
+			    -webkit-border-radius: 0 0 0 6px;
+			    border-radius: 0 0 0 6px;
+			}
+			
+			.zebra tfoot td:last-child {
+			    -moz-border-radius: 0 0 6px 0;
+			    -webkit-border-radius: 0 0 6px 0;
+			    border-radius: 0 0 6px 0;
+			}
+			
+			.zebra tfoot td:only-child{
+			    -moz-border-radius: 0 0 6px 6px;
+			    -webkit-border-radius: 0 0 6px 6px
+			    border-radius: 0 0 6px 6px
+			}
+  
+</style><title>Calendar</title></head><body><h1>Calendar</h1>
+				
+				Date de Telechargement du fichier brute "ICS". <br><br><br>14 Events in this file.<br><br><br>29/12/2013 &agrave;
+	  			00:00:38<table class="bordered"><thead><tr><th>Date Start</th><th>Date End</th><th>Summary</th><th>Location</th><th>Description</th></tr></thead><tbody><tr><td>05/12/2013 &agrave;
+	  			07:00:00</td><td>05/12/2013 &agrave;
+	  			09:00:00</td><td>CM/TD Logique et Automates</td><td>Salle A1</td><td>
+		Cours communs Math Info
+		VIRTUEL Sciences
+	</td></tr></tbody><tbody><tr><td>03/12/2013 &agrave;
+	  			15:00:00</td><td>03/12/2013 &agrave;
+	  			16:00:00</td><td>Entretien R&eacute;f&eacute;rent S Gaussent</td><td></td><td>
+		L2 Info
+		GAUSSENT STEPHANE
+	</td></tr></tbody><tbody><tr><td>11/12/2013 &agrave;
+	  			09:15:00</td><td>11/12/2013 &agrave;
+	  			11:15:00</td><td>Controle Math pour l'Info</td><td>Amphi. GB1</td><td>
+		L2 Info
+		BARON RICHARD
+	</td></tr></tbody><tbody><tr><td>06/12/2013 &agrave;
+	  			13:00:00</td><td>06/12/2013 &agrave;
+	  			15:00:00</td><td>TP Architecture</td><td>Salle info H203 - M&eacute;tare</td><td>
+		L2 Info
+		JEUDY BAPTISTE
+	</td></tr></tbody><tbody><tr><td>06/12/2013 &agrave;
+	  			07:00:00</td><td>06/12/2013 &agrave;
+	  			09:00:00</td><td>CM/TD Math. pour l'Info 1</td><td>Salle A8</td><td>
+		L2 Info
+		BARON RICHARD
+	</td></tr></tbody><tbody><tr><td>10/12/2013 &agrave;
+	  			15:15:00</td><td>10/12/2013 &agrave;
+	  			17:15:00</td><td>CM/TD Programmation</td><td>Salle A2</td><td>
+		Cours communs info MASS
+		YAICH MOHAMED REDA
+	</td></tr></tbody><tbody><tr><td>06/12/2013 &agrave;
+	  			09:15:00</td><td>06/12/2013 &agrave;
+	  			11:15:00</td><td>TP Architecture</td><td>Salle info H203 - M&eacute;tare</td><td>
+		L2 Info
+		JEUDY BAPTISTE
+	</td></tr></tbody><tbody><tr><td>03/12/2013 &agrave;
+	  			09:15:00</td><td>03/12/2013 &agrave;
+	  			11:15:00</td><td>TP Architecture</td><td>Salle info H203 - M&eacute;tare</td><td>
+		L2 Info
+		JEUDY BAPTISTE
+	</td></tr></tbody><tbody><tr><td>03/12/2013 &agrave;
+	  			13:00:00</td><td>03/12/2013 &agrave;
+	  			15:00:00</td><td>CM/TD Logique et Automates</td><td>Salle A6</td><td>
+		Cours communs Math Info
+		BERNARD MARC
+	</td></tr></tbody><tbody><tr><td>05/12/2013 &agrave;
+	  			13:00:00</td><td>05/12/2013 &agrave;
+	  			15:00:00</td><td>CM/TD Math. pour l'Info 1</td><td>Salle K020</td><td>
+		L2 Info
+		BARON RICHARD
+	</td></tr></tbody><tbody><tr><td>09/12/2013 &agrave;
+	  			09:15:00</td><td>09/12/2013 &agrave;
+	  			11:15:00</td><td>CM/TD Math. pour l'Info 1</td><td>Salle A5</td><td>
+		L2 Info
+		BARON RICHARD
+	</td></tr></tbody><tbody><tr><td>05/12/2013 &agrave;
+	  			09:15:00</td><td>05/12/2013 &agrave;
+	  			11:15:00</td><td>PPP Gr TD6 B</td><td>Salle A3</td><td>
+		L2 Info
+		BLANC MIGNON MARIE FRAN&Ccedil;OISE
+	</td></tr></tbody><tbody><tr><td>10/12/2013 &agrave;
+	  			13:00:00</td><td>10/12/2013 &agrave;
+	  			15:00:00</td><td>CM/TD Logique et Automates</td><td>Salle A24</td><td>
+		Cours communs Math Info
+		VIRTUEL Sciences
+	</td></tr></tbody><tbody><tr><td>09/12/2013 &agrave;
+	  			13:00:00</td><td>09/12/2013 &agrave;
+	  			15:00:00</td><td>TP Bases de Donn&eacute;es Groupe 2</td><td>Salle info H206 - M&eacute;tare</td><td>
+		L2 Info
+		YAICH MOHAMED REDA
+	</td></tr></tbody></table></body></html>

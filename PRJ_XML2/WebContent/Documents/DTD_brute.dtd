@@ -1,0 +1,23 @@
+<!ELEMENT calendar (method,prodid,version,calscale,event*) >
+<!ELEMENT event (dtStamp , dtStart , dtEnd , summary , location , description , uid , creation , lastModified , sequence )>
+<!ELEMENT dtStamp (annee,mois,jour,heure,minute,seconde) >
+<!ELEMENT dtStart (annee,mois,jour,heure,minute,seconde) >
+<!ELEMENT dtEnd (annee,mois,jour,heure,minute,seconde) >
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT prodid (#PCDATA)>
+<!ELEMENT calscale (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT description (sousDescription*)>
+<!ELEMENT sousDescription (#PCDATA)>
+<!ELEMENT uid (#PCDATA)>
+<!ELEMENT creation (#PCDATA)>
+<!ELEMENT lastModified (annee,mois,jour,heure,minute,seconde)>
+<!ELEMENT sequence (#PCDATA)>
+<!ELEMENT annee (#PCDATA)>
+<!ELEMENT mois (#PCDATA)>
+<!ELEMENT jour (#PCDATA)>
+<!ELEMENT heure (#PCDATA)>
+<!ELEMENT minute (#PCDATA)>
+<!ELEMENT seconde (#PCDATA)>

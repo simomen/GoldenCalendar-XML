@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE calendar SYSTEM "DTD_brute.dtd">
+<calendar>
+	<method>REQUEST</method>
+	<prodid>-//ADE/version 5.2</prodid>
+	<version>2.0</version>
+	<calscale>GREGORIAN</calscale>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>05</jour>
+		<heure>07</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>05</jour>
+		<heure>09</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>CM/TD Logique et Automates</summary>
+	<location>Salle A1</location>
+	<description>
+		<sousDescription>Cours communs Math Info</sousDescription>
+		<sousDescription>VIRTUEL Sciences</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d373034372d322d33</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>03</jour>
+		<heure>15</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>03</jour>
+		<heure>16</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>Entretien Référent S Gaussent</summary>
+	<location></location>
+	<description>
+		<sousDescription>L2 Info</sousDescription>
+		<sousDescription>GAUSSENT STEPHANE</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d32383133382d302d30</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>11</jour>
+		<heure>09</heure>
+		<minute>15</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>11</jour>
+		<heure>11</heure>
+		<minute>15</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>Controle Math pour l'Info</summary>
+	<location>Amphi. GB1</location>
+	<description>
+		<sousDescription>L2 Info</sousDescription>
+		<sousDescription>BARON RICHARD</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d333139342d302d30</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>06</jour>
+		<heure>13</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>06</jour>
+		<heure>15</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>TP Architecture</summary>
+	<location>Salle info H203 - Métare</location>
+	<description>
+		<sousDescription>L2 Info</sousDescription>
+		<sousDescription>JEUDY BAPTISTE</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d31353831322d352d30</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>06</jour>
+		<heure>07</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>06</jour>
+		<heure>09</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>CM/TD Math. pour l'Info 1</summary>
+	<location>Salle A8</location>
+	<description>
+		<sousDescription>L2 Info</sousDescription>
+		<sousDescription>BARON RICHARD</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d31333737362d32302d30</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>10</jour>
+		<heure>15</heure>
+		<minute>15</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>10</jour>
+		<heure>17</heure>
+		<minute>15</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>CM/TD Programmation</summary>
+	<location>Salle A2</location>
+	<description>
+		<sousDescription>Cours communs info MASS</sousDescription>
+		<sousDescription>YAICH MOHAMED REDA</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d31393934392d312d30</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>06</jour>
+		<heure>09</heure>
+		<minute>15</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>06</jour>
+		<heure>11</heure>
+		<minute>15</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>TP Architecture</summary>
+	<location>Salle info H203 - Métare</location>
+	<description>
+		<sousDescription>L2 Info</sousDescription>
+		<sousDescription>JEUDY BAPTISTE</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d31353831322d362d30</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>03</jour>
+		<heure>09</heure>
+		<minute>15</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>03</jour>
+		<heure>11</heure>
+		<minute>15</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>TP Architecture</summary>
+	<location>Salle info H203 - Métare</location>
+	<description>
+		<sousDescription>L2 Info</sousDescription>
+		<sousDescription>JEUDY BAPTISTE</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d31353831322d322d30</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>03</jour>
+		<heure>13</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>03</jour>
+		<heure>15</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>CM/TD Logique et Automates</summary>
+	<location>Salle A6</location>
+	<description>
+		<sousDescription>Cours communs Math Info</sousDescription>
+		<sousDescription>BERNARD MARC</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d373034372d322d39</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>05</jour>
+		<heure>13</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>05</jour>
+		<heure>15</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>CM/TD Math. pour l'Info 1</summary>
+	<location>Salle K020</location>
+	<description>
+		<sousDescription>L2 Info</sousDescription>
+		<sousDescription>BARON RICHARD</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d31333737362d31352d30</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>09</jour>
+		<heure>09</heure>
+		<minute>15</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>09</jour>
+		<heure>11</heure>
+		<minute>15</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>CM/TD Math. pour l'Info 1</summary>
+	<location>Salle A5</location>
+	<description>
+		<sousDescription>L2 Info</sousDescription>
+		<sousDescription>BARON RICHARD</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d31333737362d31392d30</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>05</jour>
+		<heure>09</heure>
+		<minute>15</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>05</jour>
+		<heure>11</heure>
+		<minute>15</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>PPP Gr TD6 B</summary>
+	<location>Salle A3</location>
+	<description>
+		<sousDescription>L2 Info</sousDescription>
+		<sousDescription>BLANC MIGNON MARIE FRANÇOISE</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d32313237372d302d31</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>10</jour>
+		<heure>13</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>10</jour>
+		<heure>15</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>CM/TD Logique et Automates</summary>
+	<location>Salle A24</location>
+	<description>
+		<sousDescription>Cours communs Math Info</sousDescription>
+		<sousDescription>VIRTUEL Sciences</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d373034372d322d31</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+	<event>
+	<dtStamp>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</dtStamp>
+	<dtStart>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>09</jour>
+		<heure>13</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtStart>
+	<dtEnd>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>09</jour>
+		<heure>15</heure>
+		<minute>00</minute>
+		<seconde>00</seconde>
+	</dtEnd>
+	<summary>TP Bases de Données Groupe 2</summary>
+	<location>Salle info H206 - Métare</location>
+	<description>
+		<sousDescription>L2 Info</sousDescription>
+		<sousDescription>YAICH MOHAMED REDA</sousDescription>
+	</description>
+	<uid>ADE52323031332d3230313453542d455449454e4e452d31343735322d302d31</uid>
+	<creation>9700101T000000Z</creation>
+	<lastModified>
+		<annee>2013</annee>
+		<mois>12</mois>
+		<jour>29</jour>
+		<heure>00</heure>
+		<minute>00</minute>
+		<seconde>38</seconde>
+	</lastModified>
+	<sequence>133633638</sequence>
+	</event>
+</calendar>

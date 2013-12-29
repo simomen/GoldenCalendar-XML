@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><calendar>
+<event>
+<dtStart>
+<jour>05</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>09</heure>
+<minute>00</minute>
+</dtStart>
+<dtEnd>
+<jour>05</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>11</heure>
+<minute>00</minute>
+</dtEnd>
+<summary>Contrôle Interférence et Diffraction</summary>
+<location>Salle A13</location>
+<description>
+<sousDescription/>
+<sousDescription/>
+</description>
+</event>
+<event>
+<dtStart>
+<jour>04</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>13</heure>
+<minute>00</minute>
+</dtStart>
+<dtEnd>
+<jour>04</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>15</heure>
+<minute>00</minute>
+</dtEnd>
+<summary>Contrôle  Mécanique des Milieux Continus</summary>
+<location>Salle A16</location>
+<description>
+<sousDescription/>
+<sousDescription/>
+</description>
+</event>
+<event>
+<dtStart>
+<jour>04</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>09</heure>
+<minute>15</minute>
+</dtStart>
+<dtEnd>
+<jour>04</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>11</heure>
+<minute>15</minute>
+</dtEnd>
+<summary>CM/TD Informatique</summary>
+<location>Salle A4</location>
+<description>
+<sousDescription/>
+<sousDescription/>
+</description>
+</event>
+<event>
+<dtStart>
+<jour>06</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>07</heure>
+<minute>00</minute>
+</dtStart>
+<dtEnd>
+<jour>06</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>10</heure>
+<minute>00</minute>
+</dtEnd>
+<summary>TD Interférence et Diffraction</summary>
+<location>Salle A7</location>
+<description>
+<sousDescription/>
+<sousDescription/>
+</description>
+</event>
+<event>
+<dtStart>
+<jour>03</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>07</heure>
+<minute>00</minute>
+</dtStart>
+<dtEnd>
+<jour>03</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>11</heure>
+<minute>00</minute>
+</dtEnd>
+<summary>TP Informatique</summary>
+<location>CARNOT B112 - INFO</location>
+<description>
+<sousDescription/>
+<sousDescription/>
+</description>
+</event>
+<event>
+<dtStart>
+<jour>02</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>17</heure>
+<minute>00</minute>
+</dtStart>
+<dtEnd>
+<jour>02</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>19</heure>
+<minute>00</minute>
+</dtEnd>
+<summary>Contrôle Sciences de l'Education</summary>
+<location>Salle A16</location>
+<description>
+<sousDescription/>
+<sousDescription/>
+</description>
+</event>
+<event>
+<dtStart>
+<jour>02</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>07</heure>
+<minute>00</minute>
+</dtStart>
+<dtEnd>
+<jour>02</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>09</heure>
+<minute>00</minute>
+</dtEnd>
+<summary>Contrôle Transferts thermiques</summary>
+<location>Salle A1</location>
+<description>
+<sousDescription/>
+<sousDescription/>
+</description>
+</event>
+<event>
+<dtStart>
+<jour>05</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>17</heure>
+<minute>15</minute>
+</dtStart>
+<dtEnd>
+<jour>05</jour>
+<mois>12</mois>
+<annee>2013</annee>
+<heure>18</heure>
+<minute>45</minute>
+</dtEnd>
+<summary>Français</summary>
+<location>Salle A2</location>
+<description>
+<sousDescription/>
+</description>
+</event>
+</calendar>
